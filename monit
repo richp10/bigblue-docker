@@ -1,0 +1,6 @@
+check process bigblue with pidfile /var/run/red5.pid
+   group bigblue
+   start program = "/bin/bash -c '/usr/local/bin/bbb-conf --setip  $(hostname --fqdn)'"
+   stop  program = "/bin/bash -c '/usr/local/bin/bbb-conf --stop'"
+
+
