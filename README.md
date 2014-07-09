@@ -19,7 +19,7 @@ How to run the container
 --------------
 We will add systemd and run scripts, but the additional docker run parameters required are: 
 
-	-h bigblue.smartrecoveryonline.com \
+	-h bigblue.yourdomain.com \
 	-p 80:80 \
 	-p 1935:1935 \
 	-p 9123:9123
